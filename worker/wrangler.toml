@@ -1,0 +1,10 @@
+name = "electrolab-gemini-proxy"
+main = "worker.mjs"
+compatibility_date = "2026-09-01"
+
+[vars]
+ALLOWED_ORIGINS = "https://triducit-art.github.io"
+GEMINI_MODEL = "gemini-2.5-flash"
+
+# Cấu hình khóa bằng: npx wrangler secret put GEMINI_API_KEY
+# KHÔNG lưu API key trong file này hoặc trong GitHub.

@@ -1,0 +1,2 @@
+# Dùng khi kiểm thử cục bộ. Không commit file worker/.dev.vars có chứa khóa thật.
+GEMINI_API_KEY=REPLACE_WITH_PRIVATE_KEY
